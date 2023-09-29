@@ -12,6 +12,11 @@ import { SesionPageComponent } from './pages/sesion-page/sesion-page.component';
   imports: [
     CommonModule,
     SesionRoutingModule
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[SesionPageComponent],
+>>>>>>> Stashed changes
 })
 export class SesionModule { }

@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NosotrosPageComponent implements OnInit {
 
+<<<<<<< Updated upstream
   constructor() { }
+=======
+  constructor() { NosotrosPageComponent}
+>>>>>>> Stashed changes
 
   ngOnInit(): void {
   }

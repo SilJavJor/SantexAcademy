@@ -12,6 +12,11 @@ import { SolicitarPageComponent } from './pages/solicitar-page/solicitar-page.co
   imports: [
     CommonModule,
     SolicitarRoutingModule
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[SolicitarPageComponent],
+>>>>>>> Stashed changes
 })
 export class SolicitarModule { }

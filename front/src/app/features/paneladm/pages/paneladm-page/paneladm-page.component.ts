@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaneladmPageComponent implements OnInit {
 
+<<<<<<< Updated upstream
   constructor() { }
+=======
+  constructor() { PaneladmPageComponent}
+>>>>>>> Stashed changes
 
   ngOnInit(): void {
   }

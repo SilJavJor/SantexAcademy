@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistroPageComponent implements OnInit {
 
+<<<<<<< Updated upstream
   constructor() { }
+=======
+  constructor() { RegistroPageComponent}
+>>>>>>> Stashed changes
 
   ngOnInit(): void {
   }

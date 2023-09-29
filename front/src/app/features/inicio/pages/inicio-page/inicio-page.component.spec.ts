@@ -1,6 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+<<<<<<< Updated upstream
 import { InicioPageComponent } from './inicio-page.component';
+=======
+import { InicioPageComponent } from './InicioPageComponent';
+>>>>>>> Stashed changes
 
 describe('InicioPageComponent', () => {
   let component: InicioPageComponent;

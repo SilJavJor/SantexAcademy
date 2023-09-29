@@ -12,6 +12,12 @@ import { NosotrosPageComponent } from './pages/nosotros-page/nosotros-page.compo
   imports: [
     CommonModule,
     NosotrosRoutingModule
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[NosotrosPageComponent],
+
+>>>>>>> Stashed changes
 })
 export class NosotrosModule { }

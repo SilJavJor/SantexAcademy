@@ -12,6 +12,11 @@ import { RegistroPageComponent } from './pages/registro-page/registro-page.compo
   imports: [
     CommonModule,
     RegistroRoutingModule
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[RegistroPageComponent],
+>>>>>>> Stashed changes
 })
 export class RegistroModule { }

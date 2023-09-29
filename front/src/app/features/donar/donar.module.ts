@@ -12,6 +12,12 @@ import { DonarPageComponent } from './pages/donar-page/donar-page.component';
   imports: [
     CommonModule,
     DonarRoutingModule
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[DonarPageComponent],
+  
+>>>>>>> Stashed changes
 })
 export class DonarModule { }
