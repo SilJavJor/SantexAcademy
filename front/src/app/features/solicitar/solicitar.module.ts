@@ -13,7 +13,12 @@ import { SolicitarPageComponent } from './pages/solicitar-page/solicitar-page.co
     CommonModule,
     SolicitarRoutingModule
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[SolicitarPageComponent],
+>>>>>>> Stashed changes
 =======
   ],
   exports:[SolicitarPageComponent],

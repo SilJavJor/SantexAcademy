@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class PaneladmPageComponent implements OnInit {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   constructor() { }
+=======
+  constructor() { PaneladmPageComponent}
+>>>>>>> Stashed changes
 =======
   constructor() { PaneladmPageComponent}
 >>>>>>> Stashed changes

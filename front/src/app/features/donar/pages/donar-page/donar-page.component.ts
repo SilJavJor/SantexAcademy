@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class DonarPageComponent implements OnInit {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   constructor() { }
+=======
+  constructor() {DonarPageComponent }
+>>>>>>> Stashed changes
 =======
   constructor() {DonarPageComponent }
 >>>>>>> Stashed changes

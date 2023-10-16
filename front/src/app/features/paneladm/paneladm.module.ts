@@ -13,7 +13,12 @@ import { PaneladmPageComponent } from './pages/paneladm-page/paneladm-page.compo
     CommonModule,
     PaneladmRoutingModule
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[PaneladmPageComponent],
+>>>>>>> Stashed changes
 =======
   ],
   exports:[PaneladmPageComponent],

@@ -13,7 +13,12 @@ import { SesionPageComponent } from './pages/sesion-page/sesion-page.component';
     CommonModule,
     SesionRoutingModule
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[SesionPageComponent],
+>>>>>>> Stashed changes
 =======
   ],
   exports:[SesionPageComponent],

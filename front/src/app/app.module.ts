@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 
+<<<<<<< Updated upstream
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioModule } from './features/inicio/inicio.module';
@@ -48,3 +47,21 @@ import { RegistroModule } from './features/registro/registro.module';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes

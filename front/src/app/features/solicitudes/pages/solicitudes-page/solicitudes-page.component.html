@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  
+
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.115.4">
+
+    <link rel="shortcut icon" href="../../../../../assets/fundación_caecusLab_logo[2].png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>Solicitudes</title>
+
+
+</head>
+<body>
+
+    
+        <main>
+          
+          <h1 class="visually-hidden">Fundación Caecuslab</h1>
+        
+          <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="../../../adm/pages/adm-page/adm-page.component.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="../../../../../assets/fundación_caecusLab_logo[2].png" width="40" height="32" >
+                <br>
+                <span class="fs-4">Fundación Caecuslab</span>
+              </a>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="../../../paneladm/pages/paneladm-page/paneladm-page.component.html" class="btn btn-success" aria-current="page ">Panel</a></li>
+                
+                
+              </ul>
+            </header>
+          </div>
+          <!DOCTYPE html>
+          <html lang="es">
+          <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Panel de Administración - Fundación DonaElectrónicos</title>
+          <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: #f7f7f7;
+            }
+            .container {
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 2rem;
+              background-color: #fff;
+              border-radius: 5px;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .request {
+              margin-bottom: 1rem;
+              padding: 1rem;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              background-color: #f7f7f7;
+            }
+            .btn {
+              display: inline-block;
+              padding: 0.5rem 1rem;
+              background-color: #333;
+              color: #fff;
+              text-decoration: none;
+              border-radius: 5px;
+              transition: background-color 0.3s ease;
+              cursor: pointer;
+            }
+            .btn-approve {
+              background-color: #28a745;
+            }
+            .btn-reject {
+              background-color: #dc3545;
+            }
+          </style>
+          </head>
+          <body>
+            <div class="container">
+              <h2>Aprobar/Rechazar Solicitudes</h2>
+              <div class="request">
+                <h3>Solicitud #1</h3>
+                <p>Tipo de Dispositivo: Smartphone</p>
+                <p>Cantidad de Dispositivos: 10</p>
+                <p>Institución: Escuela "Nueva Era"</p>
+                <p>Dirección: Calle Principal #123</p>
+                <p>Teléfono: 123-456-7890</p>
+                <p>
+                  <button class="btn btn-approve" onclick="approveRequest(1)">Aprobar</button>
+                  <button class="btn btn-reject" onclick="rejectRequest(1)">Rechazar</button>
+                </p>
+              </div>
+              <div class="request">
+                <h3>Solicitud #2</h3>
+                <p>Tipo de Dispositivo: Computadora</p>
+                <p>Cantidad de Dispositivos: 5</p>
+                <p>Institución: Centro Comunitario "TechParaTodos"</p>
+                <p>Dirección: Avenida Central #456</p>
+                <p>Teléfono: 987-654-3210</p>
+                <p>
+                  <button class="btn btn-approve" onclick="approveRequest(2)">Aprobar</button>
+                  <button class="btn btn-reject" onclick="rejectRequest(2)">Rechazar</button>
+                </p>
+              </div>
+            </div>
+            <script>
+              function approveRequest(requestId) {
+                // Aquí iría la lógica para aprobar la solicitud con el ID requestId
+                console.log(`Solicitud ${requestId} aprobada.`);
+              }
+          
+              function rejectRequest(requestId) {
+                // Aquí iría la lógica para rechazar la solicitud con el ID requestId
+                console.log(`Solicitud ${requestId} rechazada.`);
+              }
+            </script>
+          </body>
+          </html>
+          
+ </main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

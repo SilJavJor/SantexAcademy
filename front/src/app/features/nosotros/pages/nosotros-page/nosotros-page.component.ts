@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class NosotrosPageComponent implements OnInit {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   constructor() { }
+=======
+  constructor() { NosotrosPageComponent}
+>>>>>>> Stashed changes
 =======
   constructor() { NosotrosPageComponent}
 >>>>>>> Stashed changes

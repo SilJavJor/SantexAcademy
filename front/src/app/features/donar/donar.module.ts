@@ -13,7 +13,13 @@ import { DonarPageComponent } from './pages/donar-page/donar-page.component';
     CommonModule,
     DonarRoutingModule
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[DonarPageComponent],
+  
+>>>>>>> Stashed changes
 =======
   ],
   exports:[DonarPageComponent],

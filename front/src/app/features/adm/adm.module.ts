@@ -13,7 +13,12 @@ import { AdmPageComponent } from './pages/adm-page/adm-page.component';
     CommonModule,
     AdmRoutingModule
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   ]
+=======
+  ],
+  exports:[AdmPageComponent],
+>>>>>>> Stashed changes
 =======
   ],
   exports:[AdmPageComponent],
