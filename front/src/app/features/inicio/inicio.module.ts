@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
-//import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
 import { InicioPageComponent } from './pages/inicio-page/InicioPageComponent';
 import { AppRoutingModule } from 'src/app/app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -12,13 +12,12 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
   ],
   imports: [
     CommonModule,
-
-    InicioRoutingModule
+   
+    AppRoutingModule
+    
   ],
   exports:[
-    InicioPageComponent,
-  
-    AppRoutingModule
+    InicioPageComponent
   ]
 })
 export class InicioModule { }

@@ -7,10 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolicitarPageComponent implements OnInit {
 
-// constructor() { }
-
-//  constructor() { SolicitarPageComponent}
-
   constructor() { SolicitarPageComponent}
 
   ngOnInit(): void {

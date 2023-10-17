@@ -7,10 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NosotrosPageComponent implements OnInit {
 
-//  constructor() { }
-
-//  constructor() { NosotrosPageComponent}
-
   constructor() { NosotrosPageComponent}
 
   ngOnInit(): void {

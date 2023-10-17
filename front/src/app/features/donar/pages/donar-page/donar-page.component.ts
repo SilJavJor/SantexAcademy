@@ -7,11 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DonarPageComponent implements OnInit {
 
-  constructor() { }
-
-//  constructor() {DonarPageComponent }
-
-//  constructor() {DonarPageComponent }
+  constructor() {DonarPageComponent }
 
   ngOnInit(): void {
   }

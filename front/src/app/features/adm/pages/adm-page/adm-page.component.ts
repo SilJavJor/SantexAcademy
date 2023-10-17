@@ -7,11 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdmPageComponent implements OnInit {
 
- constructor() { }
-
-//  constructor() { AdmPageComponent}
-
-//  constructor() { AdmPageComponent}
+  constructor() { AdmPageComponent}
 
   ngOnInit(): void {
   }

@@ -12,9 +12,7 @@ import { AdmPageComponent } from './pages/adm-page/adm-page.component';
   imports: [
     CommonModule,
     AdmRoutingModule
-  ]
-  ,
+  ],
   exports:[AdmPageComponent],
 })
-
 export class AdmModule { }

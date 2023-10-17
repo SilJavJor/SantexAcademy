@@ -14,5 +14,6 @@ import { DonarPageComponent } from './pages/donar-page/donar-page.component';
     DonarRoutingModule
   ],
   exports:[DonarPageComponent],
+  
 })
 export class DonarModule { }
