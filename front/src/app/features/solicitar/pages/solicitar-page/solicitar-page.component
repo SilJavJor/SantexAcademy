@@ -7,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolicitarPageComponent implements OnInit {
 
-// constructor() { }
-
-//  constructor() { SolicitarPageComponent}
-
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  constructor() { }
+=======
   constructor() { SolicitarPageComponent}
+>>>>>>> Stashed changes
+=======
+  constructor() { SolicitarPageComponent}
+>>>>>>> Stashed changes
 
   ngOnInit(): void {
   }

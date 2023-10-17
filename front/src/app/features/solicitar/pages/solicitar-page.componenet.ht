@@ -21,7 +21,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 
+<<<<<<< Updated upstream
+    <link rel="shortcut icon" href="C:\Users\maria\OneDrive\Escritorio\clone\SantexAcademy\front\src\assets\fundación_caecusLab_logo[2].png" type="image/x-icon">
+=======
     <link rel="shortcut icon" href="../../../../../assets/fundación_caecusLab_logo[2].png" type="image/x-icon">
+>>>>>>> Stashed changes
     
     <style>
       .bd-placeholder-img {
@@ -118,17 +122,29 @@
 
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+<<<<<<< Updated upstream
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="C:\Users\maria\OneDrive\Escritorio\clone\SantexAcademy\front\src\assets\fundación_caecusLab_logo[2].png" width="40" height="32" >
+=======
       <a href="../../../inicio/pages/inicio-page/inicio-page.component.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <img src="../../../../../assets/fundación_caecusLab_logo[2].png" width="40" height="32" >
+>>>>>>> Stashed changes
         <br>
         <span class="fs-4">Fundacion Caecuslab</span>
       </a>
 
       <ul class="nav nav-pills">
+<<<<<<< Updated upstream
+        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link ">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page ">Solicitar</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Donar</a></li>
+=======
         <li class="nav-item"><a href="../../../inicio/pages/inicio-page/inicio-page.component.html" class="nav-link">Inicio</a></li>
         <li class="nav-item"><a href="../../../nosotros/pages/nosotros-page/nosotros-page.component.html" class="nav-link ">Nosotros</a></li>
-        <li class="nav-item"><a href="../../../solicitar/pages/solicitar-page/solicitar-page.component.html" class="nav-link ">Solicitar</a></li>
-        <li class="nav-item"><a href="../../../donar/pages/donar-page/donar-page.component.html" class="btn btn-success" aria-current="page ">Donar</a></li>
+        <li class="nav-item"><a href="../../../solicitar/pages/solicitar-page/solicitar-page.component.html" class="btn btn-success" aria-current="page ">Solicitar</a></li>
+        <li class="nav-item"><a href="../../../donar/pages/donar-page/donar-page.component.html" class="nav-link">Donar</a></li>
+>>>>>>> Stashed changes
         
       </ul>
     </header>
@@ -139,20 +155,28 @@
   <form class="row g-3">
     <div class="col-md-6">
       <label for="validationDefault01" class="form-label">Nombre</label>
-      <input type="text" class="form-control" id="validationDefault01" value="Sebastian" required>
+<<<<<<< Updated upstream
+      <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
     </div>
     <div class="col-md-6">
       <label for="validationDefault02" class="form-label">Apellido</label>
-      <input type="text" class="form-control" id="validationDefault02" value="Gonzalez" required>
+      <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+=======
+      <input type="text" class="form-control" id="validationDefault01" value="Marcos" required>
     </div>
     <div class="col-md-6">
-      <label for="validationDefault01" class="form-label">Razon Social</label>
+      <label for="validationDefault02" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="validationDefault02" value="Lopez" required>
+>>>>>>> Stashed changes
+    </div>
+    <div class="col-md-6">
+      <label for="validationDefault01" class="form-label">Institucion</label>
       <input type="text" class="form-control" id="validationDefault01" value="Fundacion" required>
     </div>
 
     <div class="col-md-6">
       <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" value="user@gmail.com" id="inputEmail4">
+      <input type="email" class="form-control" id="inputEmail4">
     </div>
     <div class="col-md-6">
       <label for="validationDefault03" class="form-label">Dirección</label>
@@ -231,10 +255,16 @@
     </div>
 
     <div class="mb-6">
-      <label for="validationTextarea" class="form-label">Mensaje</label>
-      <textarea class="form-control" id="validationTextarea" placeholder="Escriba su mensaje" required></textarea>
+      <label for="validationTextarea" class="form-label">Motivo</label>
+<<<<<<< Updated upstream
+      <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
       <div class="invalid-feedback">
         Please enter a message in the textarea.
+=======
+      <textarea class="form-control" id="validationTextarea" placeholder="Escriba su mensaje aqui" required></textarea>
+      <div class="invalid-feedback">
+        Escriba su mensaje.
+>>>>>>> Stashed changes
       </div>
     </div>
 
@@ -247,7 +277,7 @@
       </div>
     </div>
     <div class="col-12">
-      <button class="btn btn-primary" type="submit">Donar</button>
+      <button class="btn btn-primary" type="submit">Solicitar</button>
     </div>
   </form>
 
@@ -277,16 +307,26 @@
 <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
+<<<<<<< Updated upstream
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="C:\Users\maria\OneDrive\Escritorio\clone\SantexAcademy\front\src\assets\fundación_caecusLab_logo[2].png" width="40" height="32" >
+=======
       <a href="../../../inicio/pages/inicio-page/inicio-page.component.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
         <img src="../../../../../assets/fundación_caecusLab_logo[2].png" width="40" height="32" >
+>>>>>>> Stashed changes
       </a>
       <span class="mb-3 mb-md-0 text-body-secondary">&copy; Fundacion Caecuslab 2023</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
       <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+<<<<<<< Updated upstream
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+=======
       <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/caecuslab/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
       <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/CaecusLab/?locale=es_LA"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+>>>>>>> Stashed changes
     </ul>
   </footer>
 </div>
