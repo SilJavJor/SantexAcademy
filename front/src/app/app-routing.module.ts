@@ -8,11 +8,12 @@ import { RegistroPageComponent } from './features/registro/pages/registro-page/r
 import { AdmPageComponent } from './features/adm/pages/adm-page/adm-page.component';
 import { SesionPageComponent } from './features/sesion/pages/sesion-page/sesion-page.component';
 import { PaneladmPageComponent } from './features/paneladm/pages/paneladm-page/paneladm-page.component';
+
 const routes: Routes = [
   
-  { path :'**',component:InicioPageComponent},
-  { path :'',component:InicioPageComponent},
-  { path :'inicio',component:InicioPageComponent},
+  {path :'**',component:InicioPageComponent},
+  {path :'',component:InicioPageComponent},
+  {path :'inicio',component:InicioPageComponent},
   {path:'nosotros',component:NosotrosPageComponent},
   {path:'donar',component:DonarPageComponent},
   {path:'solicitar',component:SolicitarPageComponent},
@@ -21,13 +22,7 @@ const routes: Routes = [
   {path:'sesion',component:SesionPageComponent},
   {path:'panel',component:PaneladmPageComponent},
   
-
-
-  
 ];
-
-            
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
